@@ -29,4 +29,6 @@ app.get("/students/random", async (req: Request, res: Response) => {
   }
 });
 
+//teste 1 de actions
+
 export default app;
