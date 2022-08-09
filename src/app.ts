@@ -27,7 +27,6 @@ app.get("/students/random", async (req: Request, res: Response) => {
   } else {
     res.send({});
   }
-  console.log("nova feature");
 });
 
 export default app;
