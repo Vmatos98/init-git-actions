@@ -9,9 +9,7 @@ jobs:
       - name: fazer um novo arquivo env
         uses: SpicyPizza/create-envfile@v1
         with:
-          envkey_POSTGRES_USER: "postgres"
-          envkey_POSTGRES_PASSWORD: "postgres"
-          envkey_POSTGRES_DB: "postgres"
+          
           envkey_DATABASE_URL: "postgresql://postgres:postgres@db_postgres_github-ci:5432/students__tests"
           file_name: .env.test
       - name: Rodar testes
